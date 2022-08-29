@@ -1,0 +1,7 @@
+reports
+src/test/resources/app
+target/
+test-output/
+target
+test-output
+*.class

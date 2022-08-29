@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.moneycontrol.listner.MyExtentListners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.moneycontrol.testcases.TC002_RT_3_23" />
+			<class name="com.moneycontrol.testcases.TC005_RT_3_149" />
+			<class name="com.moneycontrol.testcases.TC006_RT_3_161" />
+			<class name="com.moneycontrol.testcases.TC001_RT_3_2" />
+			<class name="com.moneycontrol.testcases.TC004_RT_3_140" />
+			<class name="com.moneycontrol.testcases.TC003_RT_3_26" />
+			<class name="com.moneycontrol.testcases.TC013_RT_3_5" />
+			<class name="com.moneycontrol.testcases.TC012_RT_3_44" />
+			<class name="com.moneycontrol.testcases.TC014_RT_3_59" />
+			<class name="com.moneycontrol.testcases.TC015_RT_3_80" />
+			<class name="com.moneycontrol.testcases.TC007_RT_3_176" />
+			<class name="com.moneycontrol.testcases.TC008_RT_3_236" />
+			<class name="com.moneycontrol.testcases.TC009_RT_3_251" />
+			<class name="com.moneycontrol.testcases.TC010_RT_3_254" />
+			<class name="com.moneycontrol.testcases.TC011_RT_3_257" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

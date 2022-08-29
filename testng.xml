@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="platformName" value="Android" />
+	<parameter name="deviceName" value="device" />
+	<parameter name="appPackage" value="com.divum.MoneyControl" />
+	<parameter name="appActivity" value="com.moneycontrol.handheld.SplashActivity" /> 
+	<listeners>
+		<listener class-name="com.moneycontrol.listner.MyExtentListners" />
+	</listeners> 
+	<test thread-count="5" name="Test">
+    <classes>
+      <!--  <class name="com.moneycontrol.testcases.TC_001"/> -->
+      <class name="com.moneycontrol.testcases.RT_3_5"/>
+            <!-- <class name="com.moneycontrol.testcases.RT_3_23"/> -->
+            <class name="com.ibs.test.TC_ImportTestInvalidLogin"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
